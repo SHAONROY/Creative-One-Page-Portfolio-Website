@@ -22,7 +22,7 @@ a {
 }
 .navbar-nav .nav-link {
     color: #ffffff !important;
-    font-size: 25px;
+    font-size: 20px;
     text-transform: capitalize;
     padding-left: 12px !important;
     padding-right:12px !important;
@@ -52,3 +52,62 @@ button:focus{
 .navbar-nav .nav-item:hover {
     background: linear-gradient(to right,#a21af0,#ff0072);
 }
+/* End the Header Section  */
+/* Start banner section  */
+#banner {
+    background: url(../image/banner.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main-banner {
+    text-align: center;
+    padding: 70px;
+}
+.main-banner h1 {
+    color: #ffffff;
+    font-size: 35px;
+}
+.main-banner span {
+    font-size: 140px;
+    text-transform: capitalize;
+    line-height: 100px;
+}
+.main-banner .color {
+    background: linear-gradient(to right,#a21af0,#ff0072);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.main-banner p {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.main-banner button {
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: linear-gradient(to right,#a21af0,#ff0072);
+    margin-top: 20px;
+}
+/* @media screen and (mix-width:576px) {
+    .main-banner span {
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+} */
+@media (max-width: 576px) {
+   .main-banner span {
+       font-size: 80px;
+       line-height: 70px;
+   }
+   .main-banner h1 {
+       font-size: 25px;
+   }
+   .main-banner p {
+       font-size: 17px;
+   }
+  }
