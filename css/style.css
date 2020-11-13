@@ -6,6 +6,9 @@
 a {
     text-decoration: none;
 }
+img {
+    width: 100%;
+}
 #header {
     background-color: #15263e !important;
 }
@@ -93,12 +96,59 @@ button:focus{
     background: linear-gradient(to right,#a21af0,#ff0072);
     margin-top: 20px;
 }
-/* @media screen and (mix-width:576px) {
-    .main-banner span {
-        font-size: 20px;
-        text-transform: capitalize;
-    }
-} */
+/* Start About Me Section */
+#about-me {
+    padding: 10px 0px;
+    background: #ffffff;
+    color: #000;
+}
+.my-description {
+    padding: 20px 0 10px;
+    text-align: right;
+}
+.my-description h2 {
+    font-size: 50px;
+    color: #15263e;
+    margin-bottom: 0px;
+}
+.my-description span {
+    font-size: 25px;
+    color: #a21af0;
+}
+.my-description p {
+    padding-top: 10px;
+    font-size: 18px;
+}
+.skills {
+    padding: 30px 0 10px;
+}
+.skills span {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.skills .progress {
+    background-color: #ff0072;
+    border-radius: 20px;
+}
+.skills .progress-bar {
+    background-color: #a21af0;
+    border-radius: 20px;
+}
+.skills span:nth-child(3) {
+    padding-top: 20px;
+}
+.skills span:nth-child(5) {
+    padding-top: 20px;
+}
+.skills span:nth-child(7) {
+    padding-top: 20px;
+}
+/* End About Me Section  */
+/* Extra Small Device Media Qurey */
 @media (max-width: 576px) {
    .main-banner span {
        font-size: 80px;
@@ -111,3 +161,58 @@ button:focus{
        font-size: 17px;
    }
   }
+  /* Large Device media Qurey */
+@media ( min-width: 768px) and (max-width: 992px){
+    /* Strat About Me Section  */
+    .my-description h2 {
+        font-size: 30px;
+    }
+    .my-description span {
+        font-size: 18px;
+    }
+    .my-description p {
+        font-size: 14px;
+    }
+    .skills span {
+        font-size: 16px;
+    }
+    .skills span:nth-child(3) {
+        padding-top: 5px;
+    }
+    .skills span:nth-child(5) {
+        padding-top: 5px;
+    }
+    .skills span:nth-child(7) {
+        padding-top: 5px;
+    }
+    .image img {
+        margin-top: 45px;
+    }
+    /* End About Me Section  */
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* About Me Section  */
+    .my-description h2 {
+        font-size: 40px;
+    }
+    .my-description span {
+        font-size: 30px;
+    }
+    .my-description p {
+        font-size: 16px;
+        padding-top: 0px;
+    }
+    .skills span {
+        font-size: 20px;
+    }
+    .skills span:nth-child(3) {
+        padding-top: 10px;
+    }
+    .skills span:nth-child(5) {
+        padding-top: 10px;
+    }
+    .skills span:nth-child(7) {
+        padding-top: 10px;
+    }
+    /* End About Me Section  */
+}
