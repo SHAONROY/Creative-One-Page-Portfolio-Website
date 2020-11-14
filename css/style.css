@@ -148,6 +148,36 @@ button:focus{
     padding-top: 20px;
 }
 /* End About Me Section  */
+/* Start Contact Information Section  */
+#contact-information{
+    padding: 50px 0px;
+    background: #dcdcde;
+}
+.icon {
+width: 25%;
+float: left;
+background: #374362;
+text-align: center;
+font-size: 40px;
+padding: 20px;
+border-radius: 50%;
+color: #fff;
+}
+.phone-information {
+    width: 75%;
+    float: right;
+    text-transform: uppercase;
+}
+.phone-information h5 {
+    margin: 10px 0px 10px 20px;
+    font-size: 25px;
+    
+}
+.phone-information span {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
 /* Extra Small Device Media Qurey */
 @media (max-width: 576px) {
    .main-banner span {
@@ -160,9 +190,49 @@ button:focus{
    .main-banner p {
        font-size: 17px;
    }
+   /* Start Contact Information Section  */
+   .icon {
+       font-size: 30px;
+       padding: 10px;
+       width: 15%;
+       margin-left: 20px;
+       margin-top: 10px;
+   }
+   .phone-information {
+       margin-bottom: 20px;
+   }
+   .phone-information h5 {
+        margin: 0px 0px 10px 20px;
+        font-size: 20px; 
+        font-weight: bold; 
+     }
+     .phone-information span {
+         font-size: 13px;
+     }
+     /* End the contact Information Section  */
   }
+@media (min-width:576px) and (max-width: 767px){
+    /* Start The Contact Information Section  */
+    .icon {
+        font-size: 30px;
+        padding: 10px;
+        width: 15%;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .phone-information {
+        margin-bottom: 20px;
+    }
+    .phone-information h5 {
+         margin: 0px 0px 10px 20px;
+         font-size: 20px; 
+         font-weight: bold; 
+      }
+      /* End the Contact Information Section  */
+}
+
   /* Large Device media Qurey */
-@media ( min-width: 768px) and (max-width: 992px){
+@media ( min-width: 768px) and (max-width: 991px){
     /* Strat About Me Section  */
     .my-description h2 {
         font-size: 30px;
@@ -189,8 +259,27 @@ button:focus{
         margin-top: 45px;
     }
     /* End About Me Section  */
+    /* Start The Contact Information Section  */
+    .icon {
+        font-size: 30px;
+        padding: 10px;
+        width: 30%;
+    }
+    .phone-information {
+        width: 70%;
+    }
+    .phone-information h5 {
+         font-size: 15px; 
+         font-weight: bold;
+         margin: 5px 0px 0px 15px;
+      }
+    .phone-information span {
+        font-size: 9px;
+        margin-left: 15px;
+    }
+    /* Ent The Contact Information Section  */
 }
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     /* About Me Section  */
     .my-description h2 {
         font-size: 40px;
@@ -215,4 +304,18 @@ button:focus{
         padding-top: 10px;
     }
     /* End About Me Section  */
+    /* Start The Contact Information Section  */
+    .icon {
+        font-size: 36px;
+        padding: 10px;
+    }
+    .phone-information h5 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 1px;
+    }
+    .phone-information span {
+        font-size: 13px;
+    }
+    /* End The Contact Information Section  */
 }
