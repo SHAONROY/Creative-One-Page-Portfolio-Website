@@ -311,6 +311,45 @@ color: #fff;
     box-shadow: none;
 }
 /* End The Profilo Section  */
+/* Start The experience Section  */
+#experience {
+    padding: 50px 0px;
+    background: linear-gradient(60deg, #a21af0, #ff0072);
+    color: #fff;
+    text-align: center;
+    
+}
+#experience h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+}
+#experience p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.advice h3 {
+    text-align: right;
+    text-transform: uppercase;
+}
+.advice span {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    padding-bottom: 10px;
+}
+.advice p {
+    text-align: left !important;
+    margin-left: 20px;
+}
+.personal-advice {
+    border-right: 15px solid #fff;
+    padding-right: 15px;
+}
+
+/* End the Experience Section  */
 /* Extra Small Device Media Qurey */
 @media (max-width: 576px) {
    .main-banner span {
@@ -465,6 +504,18 @@ color: #fff;
         margin-top: 50px;
     }
   /* End The Testimonial Section  */
+  /* Start The Experience Section  */
+  .advice p {
+      font-size: 14px;
+  }
+  .personal-advice h3 {
+      font-size: 25px;
+      margin-top: 10px;
+  }
+  .personal-advice span {
+      padding-bottom: 10px;
+  }
+
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     /* About Me Section  */
@@ -514,4 +565,11 @@ color: #fff;
    .testimonial-image img {
        margin-top: 10px;
    }
+    /* End The Testimonial Section   */
+    /* Start The Experience section  */
+   .personal-advice h3 {
+    font-size: 25px;
+    margin-top: 10px;
+    }
+    /* End The Experience Section  */
 }
