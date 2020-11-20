@@ -320,13 +320,15 @@ color: #fff;
     
 }
 #experience h2,
-#blog h2 {
+#blog h2,
+#contact h2 {
     text-transform: uppercase;
     font-size: 40px;
     text-align: center;
 }
 #experience p,
-#blog p {
+#blog p,
+#contact p {
     text-align: center;
     margin-bottom: 30px;
 }
@@ -378,8 +380,61 @@ color: #fff;
     text-align: left !important;
     margin-bottom: 0px !important;
 }
-
 /* End The Blog Section  */
+/* Start The Contact Information Section  */
+#contact {
+    padding: 50px 0px;
+    background: url(../image/images.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact-information {
+    background: #15263e;
+    color: #fff;
+    padding: 30px 0px;
+}
+.contact-body {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+.contact-body input {
+    width: 32%;
+    margin: 0px auto 20px;
+    padding: 5px 0px 5px 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+input:focus {
+    outline: none;
+}
+textarea:focus {
+    outline: none;
+}
+button:focus {
+    outline: none;
+}
+.contact-body textarea {
+    width: 100%;
+}
+.contact-body input:nth-child(1) {
+    margin-right: 13px;
+}
+.contact-body input:nth-child(3) {
+    margin-left: 13px;
+}
+.contact-body button {
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: linear-gradient(to right,#a21af0,#ff0072);
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+}
+/* End The Contact Information Section  */
 /* Extra Small Device Media Qurey */
 @media (max-width: 576px) {
    .main-banner span {
@@ -432,6 +487,18 @@ color: #fff;
          margin-top: 20px;
      }
      /* End The Testimonial Section  */
+     /* Start The Contact Information Section  */
+     .contact-body input {
+        width: 100%;
+        margin: 0px auto 20px;
+        padding: 5px 0px 5px 10px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .contact-body input:nth-child(3) {
+        margin-left: 0px;
+    }
+    /* End The Contact Information Section  */
   }
 @media (min-width:576px) and (max-width: 767px){
     /* Start The Contact Information Section  */
@@ -470,6 +537,19 @@ color: #fff;
         padding: 3px;
     }
     /* End the Protfilo Section  */
+       /* Start The Contact Information Section  */
+       .contact-body input {
+        width: 100%;
+        margin: 0px auto 20px;
+        padding: 5px 0px 5px 10px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .contact-body input:nth-child(3) {
+        margin-left: 0px;
+    }
+    /* End The Contact Information Section  */
+    
 }
 
   /* Large Device media Qurey */
@@ -545,8 +625,17 @@ color: #fff;
   .personal-advice span {
       padding-bottom: 10px;
   }
+  /* Start The Contact Information Section  */
+    .contact-body input:nth-child(1) {
+        margin-right: 6px;
+    }
+    .contact-body input:nth-child(3) {
+        margin-left: 6px;
+    }   
+    /* End The Contact Information Section  */
 
 }
+
 @media (min-width: 992px) and (max-width: 1199px) {
     /* About Me Section  */
     .my-description h2 {
@@ -602,4 +691,12 @@ color: #fff;
     margin-top: 10px;
     }
     /* End The Experience Section  */
+    /* Start The Contact Information Section  */
+    .contact-body input:nth-child(1) {
+        margin-right: 10px;
+    }
+    .contact-body input:nth-child(3) {
+        margin-left: 10px;
+    }
+    /* End The Contact Information Section  */
 }
