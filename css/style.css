@@ -1,7 +1,8 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 a {
     text-decoration: none;
@@ -435,6 +436,13 @@ button:focus {
     cursor: pointer;
 }
 /* End The Contact Information Section  */
+/* Start The Footer Section  */
+#footer {
+    padding: 25px 0px 0px 0px; 
+    background: #fff;
+    text-align: center;
+}
+/* End The Footer Section  */
 /* Extra Small Device Media Qurey */
 @media (max-width: 576px) {
    .main-banner span {
